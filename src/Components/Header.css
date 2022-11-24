@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 73px;
+  }
+  .Initials {
+    font-size: 1.3rem;
+  
+  }
+  span a{
+    color: white;
+  }
+  
+  .M {
+  
+    color: rgb(231, 106, 106);
+  
+  }
+  nav ol {
+      
+    display: flex;
+    align-items: center;
+  
+  }
+  nav ol li {
+  
+    list-style: none;
+    margin: 0 22px 0 22px;
+  
+  }
+  nav ol :hover{
+    color: rgb(231, 106, 106);
+    
+  } 
+  a{
+    text-decoration: none;
+    color: grey;
+  
+  }
