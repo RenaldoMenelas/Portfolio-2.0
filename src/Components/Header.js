@@ -6,7 +6,7 @@ function Header() {
         <>
        <header>
         <span className="Initials"> 
-            <a href="index.html">R<span className="M">M </span></a>
+            <a href="">R<span className="M">M</span></a>
          </span>
     <nav>
         <ol>
