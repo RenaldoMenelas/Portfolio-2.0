@@ -6,6 +6,8 @@ import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithubAlt } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+
 import { useState } from 'react'
 import passOver from './PassOver'
 import PassOver from './PassOver';
@@ -25,7 +27,7 @@ console.log(clicked)
     return (
         <>
             
-            {!clicked ? <div>      <Header/>
+            {!clicked ? <div>   <Header/>
 
                 
     <h1 id="About">Hi 👋, I'm Renaldo Menelas</h1>
@@ -60,16 +62,19 @@ console.log(clicked)
       <div id="projects" className="first-project-cover">
        <a href="https://renaldomenelas.github.io/SavanahDining/">
                         <b>Savannah Dining</b>
-                       <div id="ProjectDescription">Italian Styled Restaurnt <br/>Make a Reservation Today! </div>
-        
-       </a>
+                            <div id="ProjectDescription">Italian Styled Restaurnt <br />Make a Reservation Today! </div>
+                            </a>
+                      
+
+      
       </div>
 
     <div id="projects" className="second-project-cover">
         <a href="https://museumexperiencepythonfe.netlify.app/" > 
                         <b>Muesem Gallary </b>
                         <div id="ProjectDescription" >Ancient Artwork Gallery <br/> </div>
-        </a>
+                        </a>
+                        
                 </div>
                 
 
@@ -77,9 +82,11 @@ console.log(clicked)
         <a href="https://renaldomenelas.github.io/countdown-app/">
                         <b>Birthday Countdown</b>
                        
-                            <div id="ProjectDescription">Countdown untill your next Birthday <br /></div>
+                            <div id="ProjectDescription">Countdown until your next Birthday <br /></div>
                             
-        </a>
+                        </a>
+                       
+
  </div>
 
 </div>
@@ -87,32 +94,26 @@ console.log(clicked)
  
  <div  className="other-container">
  <div onClick={click} id="projects">
-
     <a href="PassOver.html"> 
      <b>PassOver</b> 
     </a>
-   
  </div>
                 <div id="projects" className="PassOver-img-container">
 
     <a href="https://renaldomenelas.github.io/stretch-app/"> 
-                      <b> Press & Stretch</b> 
-                                            
-    </a>
-    
-                       
+                      <b> Press & Stretch</b>                                        
+    </a>                 
  </div>
- 
 </div>
             <h2>Contact</h2>
-            <div className="vertical_line1"></div>
-             <div id="Contacts" className="contact">" If you have a general inquiry please drop me an email. If you have a project inquiry text me for quick response. "</div>
+            <div id="Contacts" className="vertical_line1"></div>
+             <div  className="contact">" If you have a general inquiry please drop me an email. If you have a project inquiry text me for quick response. "</div>
                 <div className="icons-container">
                     
            <a href="mailto:renaldo.menelas@gmail.com"><FaEnvelope id="icons" /></a>
-           <a href="https://www.linkedin.com/in/renaldo-menelas-9a11a8211/</div>"><FaLinkedin  id="icons" /></a> 
+           <a href="https://www.linkedin.com/in/renaldo-menelas-9a11a8211/"><FaLinkedin  id="icons" /></a> 
            <a href="https://github.com/RenaldoMenelas" ><FaGithubAlt  id="icons" /></a>
-           <a href="tel:7182828098"><FaPhone  id="icons" /></a>    
+           <a href="tel:9179135722"><FaPhone  id="icons" /></a>    
             </div>
             <div className="Name">Renaldo Menelas</div>
             <div className="Copyright">Copyright 2022<br/> All rights reserved Renaldo Menelas</div>
