@@ -105,8 +105,8 @@ console.log(clicked)
     </a>                 
  </div>
 </div>
-            <h2>Contact</h2>
-            <div id="Contacts" className="vertical_line1"></div>
+            <h2 id="Contacts">Contact</h2>
+            <div className="vertical_line1"></div>
              <div  className="contact">" If you have a general inquiry please drop me an email. If you have a project inquiry text me for quick response. "</div>
                 <div className="icons-container">
                     
