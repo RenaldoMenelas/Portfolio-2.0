@@ -163,7 +163,7 @@ transition: .5s ease-in;
 
 
 #icons:hover{
-    transform:scale(1.3) ;
+    transform:scale(1.1) ;
         color:rgb(231, 106, 106);
 
 }
@@ -229,8 +229,8 @@ align-items: center;
 }
 @media (max-width:800px) {
 #projects{
-    width: 75%;
-    height: 17rem;
+    width: 60%;
+    height: 11rem;
     margin-bottom: 3rem;
 }
 
@@ -256,9 +256,8 @@ align-items: center;
 .PassOver-container{
     width: 80%;
 }
-
-   
 }
+
 
 
 @media (max-width:500px) {
