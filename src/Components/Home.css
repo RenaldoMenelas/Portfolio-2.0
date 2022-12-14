@@ -102,37 +102,46 @@ h2 {
     height: 12rem;
     background-color: rgba(19, 19, 24, 0.342);
     border-radius: 9px;
-    margin: 0 7px;
+    margin: 0 7px ;
     font-size: .77rem; 
     transition: .5s ease-in;
+    
+   
+    
 }
 #projects:hover{
     border-bottom: 4px solid rgb(231, 106, 106);
-transform:scale(1.1) ;
+transform:scale(1.15); ;
 
 
 }
 
+
 .projects-container{
 
- margin-bottom:55px;
-display: flex;
-justify-content: center;
+    margin-bottom:55px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #ProjectDescription{
     margin-top: 9px;
     margin-bottom: 19px;
-
+  color: grey;
 }
 b{
     font-weight: 700;
     color:rgb(231, 106, 106);
    
 }
- 
-
-
+.project-icons{
+    font-size: 17px;
+    color: grey;
+    }
+    .project-icons :hover{
+    color:rgb(231, 106, 106); 
+    }
 h3{ 
     color: grey;
     margin: auto;
@@ -143,17 +152,12 @@ h3{
     
 }
 
-.other-container{
+.projects-2nd-row{
     display: flex;
     }
 
 #icons{
-   
-    height: 1rem;
-color: grey;   
-
 transition: .5s ease-in;
-
     
 }
 
@@ -208,41 +212,9 @@ align-items: center;
 }
 
 
-.PassOver-img{
-    
-    box-shadow:12px 12px 2px  rgba(220, 228, 217, 0.199);
- }
- 
 
 /*************passover-page***********/
 
-.passOver_img_and_text_box{
-   
-    margin: auto;
-    width: 80%;
-    color: rgba(255, 255, 255, 0.616);
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
-    
-}
-
-.PassOver{
-    box-shadow:22px 23px 12px  rgba(19, 18, 18, 0.466);
-    width: 50%;
-    transition: transform .2s
-}
-
-
-.PassOver:hover{
-    transform: scale(.1);
-}
-.PassOver-container{
-
-    width: 40%;
-    
-}
 .passOver_Bio_title {
 
     color:rgb(231, 106, 106) ;
@@ -255,6 +227,21 @@ align-items: center;
    font-size: 35%;
    
 }
+@media (max-width:800px) {
+#projects{
+    width: 75%;
+    height: 17rem;
+    margin-bottom: 3rem;
+}
+
+.projects-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+}
 @media (max-width:694px){
    
     .skills{
@@ -265,17 +252,12 @@ align-items: center;
     width: 90%;
 }
 
-    .PassOver-container{
-        width: 80%;
-    }
+   
+.PassOver-container{
+    width: 80%;
+}
 
    
-   
-}
-@media (max-width:500px) {
-    .envelope{
-        width: 7%;
-    }
 }
 
 
@@ -287,8 +269,9 @@ align-items: center;
         
     }
     #projects{
-        width: 95%;
+        width: 100%;
         margin-bottom:3rem ;
+        height: 12rem;
     }
     
     button{
@@ -308,10 +291,7 @@ align-items: center;
 
     }
 
-    .github-icon{
-        display: none;
-        
-    }
+    
 
     .PassOver-img-container{
         

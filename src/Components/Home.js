@@ -6,12 +6,11 @@ import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithubAlt } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-
+import { RiExternalLinkFill,RiGithubLine } from 'react-icons/ri';
 import { useState } from 'react'
-import passOver from './PassOver'
 import PassOver from './PassOver';
 import Header from './Header'
+
 
 
 
@@ -29,7 +28,7 @@ console.log(clicked)
             
             {!clicked ? <div>   <Header/>
 
-                
+             
     <h1 id="About">Hi 👋, I'm Renaldo Menelas</h1>
     <div className="bio">
     A <span className="Frontend_Dev" >Frontend Developer </span> based in Nyc.
@@ -59,50 +58,94 @@ console.log(clicked)
             <h3 id="Projects" >Projects </h3>
    
  <div className="projects-container">
-      <div id="projects" className="first-project-cover">
-       <a href="https://renaldomenelas.github.io/SavanahDining/">
+      <div id="projects" className="first-project">
+       
                         <b>Savannah Dining</b>
-                            <div id="ProjectDescription">Italian Styled Restaurnt <br />Make a Reservation Today! </div>
-                            </a>
-                      
-
+                            <div id="ProjectDescription">Italian Styled Restaurant </div>
+                        
+                       
+                            <div className="project-icons">
+                                <a href="https://github.com/RenaldoMenelas/SavanahDining">
+                                <RiGithubLine className="project-icons" style={{ margin: '0 16px 0 16px' }} /> </a>
+                                <a href="https://renaldomenelas.github.io/SavanahDining/">
+                                <RiExternalLinkFill   style={{ margin:'0 16px 0 16px'}} /> </a>
+                                </div>
+                     
       
       </div>
 
-    <div id="projects" className="second-project-cover">
-        <a href="https://museumexperiencepythonfe.netlify.app/" > 
+    <div id="projects" className="second-project">
+    
                         <b>Muesem Gallary </b>
                         <div id="ProjectDescription" >Ancient Artwork Gallery <br/> </div>
-                        </a>
                         
+                       
+                        <div className="project-icons">
+                                <a href="https://github.com/RenaldoMenelas/MuseumExperience-Group2-Python-FE-1">
+                                <RiGithubLine className="project-icons" style={{ margin: '0 16px 0 16px' }} /> </a>
+                                <a href="https://museumexperiencepythonfe.netlify.app/">
+                                <RiExternalLinkFill   style={{ margin:'0 16px 0 16px'}} /> </a>
+                                </div>
+                     
+      
+                     
                 </div>
                 
 
-    <div id="projects" className="third-project-cover"> 
-        <a href="https://renaldomenelas.github.io/countdown-app/">
+    <div id="projects" className="third-project"> 
+       
                         <b>Birthday Countdown</b>
                        
                             <div id="ProjectDescription">Countdown until your next Birthday <br /></div>
                             
-                        </a>
-                       
+                  
 
- </div>
+                        <div className="project-icons">
+                                <a href="https://github.com/RenaldoMenelas/countdown-app">
+                                <RiGithubLine className="project-icons" style={{ margin: '0 16px 0 16px' }} /> </a>
+                                <a href="https://renaldomenelas.github.io/countdown-app/">
+                                <RiExternalLinkFill   style={{ margin:'0 16px 0 16px'}} /> </a>
+                                </div>
+                     
+      
+                      
+                    </div>
+                    
+
+                    
 
 </div>
         
  
- <div  className="other-container">
- <div onClick={click} id="projects">
-    <a href="PassOver.html"> 
+ <div  className="projects-2nd-row">
+ <div id="projects" className="fourth-projec">
+    
      <b>PassOver</b> 
-    </a>
- </div>
-                <div id="projects" className="PassOver-img-container">
+     <div id="ProjectDescription">Sketch Poster <br /></div>
+                        
+                            <div className="project-icons">
 
-    <a href="https://renaldomenelas.github.io/stretch-app/"> 
+                                <RiExternalLinkFill  onClick={click}   style={{ margin:'0 16px 0 16px'}} />
+                                </div>
+                     
+                     
+ </div>
+                <div id="projects" >
+
+  
                       <b> Press & Stretch</b>                                        
-    </a>                 
+                       
+                        <div id="ProjectDescription">Stretch for success <br /></div>
+
+                        <div className="project-icons">
+                                <a href="https://github.com/RenaldoMenelas/stretch-app">
+                                <RiGithubLine className="project-icons" style={{ margin: '0 16px 0 16px' }} /> </a>
+                                <a href="https://renaldomenelas.github.io/stretch-app/">
+                                <RiExternalLinkFill   style={{ margin:'0 16px 0 16px'}} /> </a>
+                                </div>
+                     
+      
+                   
  </div>
 </div>
             <h2 id="Contacts">Contact</h2>
@@ -118,7 +161,7 @@ console.log(clicked)
             <div className="Name">Renaldo Menelas</div>
             <div className="Copyright">Copyright 2022<br/> All rights reserved Renaldo Menelas</div>
 
-            </div>  : <PassOver/>}
+            </div> : <PassOver/>}
       
         </>
     )
