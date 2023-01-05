@@ -76,7 +76,7 @@ console.log(clicked)
 
     <div id="projects" className="second-project">
     
-                        <b>Museum Gallary </b>
+                        <b>Museum Gallery </b>
                         <div id="ProjectDescription" >Ancient Artwork Gallery <br/> </div>
                         
                        
