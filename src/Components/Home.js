@@ -1,7 +1,5 @@
 import React from 'react'
 import './Home.css'
-import Pic from '../programmer.png'
-import Raised from '../img.jpeg'
 import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithubAlt } from 'react-icons/fa';
