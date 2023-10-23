@@ -29,7 +29,7 @@ console.log(clicked)
              
     <h1 id="About">Hi 👋, I'm Renaldo Menelas</h1>
     <div className="bio">
-    A <span className="Frontend_Dev" >Frontend Developer </span> based in Nyc.
+    A <span className="Frontend_Dev" >Software Engineer </span> based in Nyc.
     <br/>
     I specailize in creating Frontend Applications as well as dabble in graphic design
     </div>
