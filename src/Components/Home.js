@@ -92,16 +92,16 @@ console.log(clicked)
 
     <div id="projects" className="third-project"> 
        
-                        <b>Birthday Countdown</b>
+                        <b>Drag N Drop Bit</b>
                        
-                            <div id="ProjectDescription">Countdown until your next Birthday <br /></div>
+                            <div id="ProjectDescription">Interactive Binary Drag N Drop Game <br /></div>
                             
                   
 
                         <div className="project-icons">
-                                <a href="https://github.com/RenaldoMenelas/countdown-app">
+                                <a href="https://github.com/RenaldoMenelas/BinaryDragNDropGame">
                                 <RiGithubLine className="project-icons" style={{ margin: '0 16px 0 16px' }} /> </a>
-                                <a href="https://renaldomenelas.github.io/countdown-app/">
+                                <a href="https://renaldomenelas.github.io/BinaryDragNDropGame/">
                                 <RiExternalLinkFill   style={{ margin:'0 16px 0 16px'}} /> </a>
                                 </div>
                      
@@ -133,7 +133,7 @@ console.log(clicked)
   
                       <b> Press & Stretch</b>                                        
                        
-                        <div id="ProjectDescription">Stretch for success <br /></div>
+                        <div id="ProjectDescription">Stretch For Success <br /></div>
 
                         <div className="project-icons">
                                 <a href="https://github.com/RenaldoMenelas/stretch-app">
