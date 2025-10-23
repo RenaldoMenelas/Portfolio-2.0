@@ -99,9 +99,9 @@ console.log(clicked)
                   
 
                         <div className="project-icons">
-                                <a href="https://renaldomenelas.github.io/DragNDropBit/">
+                                <a href="https://github.com/RenaldoMenelas/DragNDropBit">
                                 <RiGithubLine className="project-icons" style={{ margin: '0 16px 0 16px' }} /> </a>
-                                <a href="https://renaldomenelas.github.io/BinaryDragNDropGame/">
+                                <a href="https://renaldomenelas.github.io/DragNDropBit/">
                                 <RiExternalLinkFill   style={{ margin:'0 16px 0 16px'}} /> </a>
                                 </div>
                      
