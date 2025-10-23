@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.26cb501d.css",
-    "main.js": "/Portfolio-2.0/static/js/main.82e8dfcd.js",
+    "main.css": "/Portfolio-2.0/static/css/main.e3c5b141.css",
+    "main.js": "/Portfolio-2.0/static/js/main.b9238666.js",
     "static/media/PassOver.jpg": "/Portfolio-2.0/static/media/PassOver.e856eee93fab66ce2de2.jpg",
     "index.html": "/Portfolio-2.0/index.html",
-    "main.26cb501d.css.map": "/Portfolio-2.0/static/css/main.26cb501d.css.map",
-    "main.82e8dfcd.js.map": "/Portfolio-2.0/static/js/main.82e8dfcd.js.map"
+    "main.e3c5b141.css.map": "/Portfolio-2.0/static/css/main.e3c5b141.css.map",
+    "main.b9238666.js.map": "/Portfolio-2.0/static/js/main.b9238666.js.map"
   },
   "entrypoints": [
-    "static/css/main.26cb501d.css",
-    "static/js/main.82e8dfcd.js"
+    "static/css/main.e3c5b141.css",
+    "static/js/main.b9238666.js"
   ]
 }
